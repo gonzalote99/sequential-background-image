@@ -1,0 +1,95 @@
+body {
+  font-family: "Opens Sans", sans-serif;
+  background-color: hsl(209, 23%, 60%);
+  background-size: cover;
+  color: hsl(209, 61%, 19%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  letter-spacing: 0.1rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Opens Sans", sans-serif;
+}
+
+nav {
+  background: #fff;
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-center h4 {
+  margin-bottom: 0;
+  color: hsl(205, 78%, 60%);
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: hsl(205, 86%, 17%);
+  letter-spacing: 0.1rem;
+  margin-right: 1rem;
+}
+
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: end center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h4 {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.6;
+}
+
+.image-desc {
+  color: hsl(205, 100%, 96%);
+}
+
+.btn-hero {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: hsl(210, 36%, 96%);
+  color: #222;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  border: 2px solid #222;
+  cursor: pointer;
+}
